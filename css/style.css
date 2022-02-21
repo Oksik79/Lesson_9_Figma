@@ -1,0 +1,141 @@
+@import "null.css";
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap);
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+
+.hat, .telo {
+	margin-bottom: 30px;
+}
+
+.conteiner-1 {
+	color: #424551;
+	font-size: 16px;
+	font-family: "Lato", Arial, sans-serif;
+	font-weight: 400;
+	line-height: 26px;
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+.title-1 {
+	margin-bottom: 26px;
+}
+
+h1 {
+	color: #1E212C;
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 60px;
+}
+
+.row {
+	margin-bottom: 40px;
+}
+
+.data, .time {
+	max-width: 132px;
+}
+
+.data {
+	padding: 0 0 0 24px;
+	background: url('../img/Calendar.svg') 0 2px no-repeat;
+	margin-right: 24px;
+}
+
+.time {
+	padding: 0 0 0 24px;
+	background: url('../img/Clock.svg') 0 2px no-repeat;
+	margin-right: 390px;
+}
+
+.messenger {
+	display: inline-block;
+	font-weight: 700;
+	max-width: 46px;
+	margin-right: 12px;
+}
+
+.row *:last-of-type {
+	margin-right: 0;
+}
+
+.facebook, .Twitter, .Linked-In {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin-right: 12px;
+}
+
+.facebook {
+	background: url('../img/Facebook.svg') 0 3px / 20px no-repeat;
+}
+
+.Twitter {
+	background: url('../img/Twitter.svg') 0 3px / 20px no-repeat;
+}
+
+.Linked-In {
+	background: url('../img/Linked-In.svg') 0 3px / 20px no-repeat;
+}
+
+.image {
+	margin-bottom: 60px;
+}
+
+.text1, .text4 {
+	font-size: 20px;
+	font-family: "Lato", Arial, sans-serif;
+	font-weight: 700;
+	line-height: 30px;
+}
+
+
+.text1, .text2, .text5, .spisok {
+	margin-bottom: 24px;
+}
+
+.text3, .text4 {
+	margin-bottom: 48px;
+}
+
+.text4 {
+background: url('../img/braces.svg') 0 0 no-repeat;
+padding-left: 58px;
+}
+
+.spisok1 {
+	background: url('../img/check.svg') 0 6px no-repeat;
+	padding-left: 32px;
+	margin-bottom: 4px;
+	line-height: 26px;
+}
+
+
+.spisok li:last-child {
+	margin-bottom: 0;
+}
+
+
+.text6 {
+	margin-bottom: 63px;
+}
+
+.row-down {
+	margin-left: 608px;
+}
+
+.row-down *:last-of-type {
+	margin-right: 0;
+}
+
+footer {
+	color: rgb(167, 7, 241);
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+}
